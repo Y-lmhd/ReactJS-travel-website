@@ -1,0 +1,14 @@
+/**
+* Landing Page section
+*/
+
+.landing-page{
+    min-height: 50vh;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+/*
+* Section Header 
+*/
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.header-content{
+    max-width: 1200px;
+    margin: auto;    
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+}
+.navigation-menu{
+    display: flex;
+    list-style: none;
+    padding: 0 10px;
+}
+.navigation-menu li{
+    padding: 10px 15px;
+}
+
+.navigation-menu li a{
+    padding: 10px 15px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #333;    
+    border-bottom: 3px solid transparent;
+}
+.navigation-menu li a:hover{
+    border-bottom: 3px solid #E09F3E;
+    color: #E09F3E;
+}

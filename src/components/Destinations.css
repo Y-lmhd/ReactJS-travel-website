@@ -1,0 +1,30 @@
+
+.destinations-wrapper{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-size: 1.2em;
+    line-height: 1.625em;
+    text-align: justify;
+}
+.destination-card{
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+.destination-card:hover img{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.destnation-image {
+    overflow: hidden;
+}
+.destnation-image img{
+    width: 100%;
+}
+.destination-text{
+    padding: 15px;
+}

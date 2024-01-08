@@ -1,0 +1,26 @@
+/**
+*
+*/
+.about-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    justify-content: center;
+}
+.about-content div{
+    padding: 20px 10px;
+}
+.about-text{
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1.8px;
+}
+.about-text button{
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+.about-image img{
+    max-width: 100%;
+    margin: 20px 0;
+}
