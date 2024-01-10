@@ -10,3 +10,10 @@ footer{
     width: 46%;
     padding: 0 20px;
 }
+.footer-info a,.footer-info a:active{
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-info a:hover{
+    color: #eee;
+}

@@ -3,7 +3,7 @@
 */
 
 .landing-page{
-    min-height: 50vh;
+    min-height: 65vh;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,4 +11,32 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
+}
+.landing-page-content {    
+    width: 960px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+.landing-page-content h1{    
+    font-size: 60px;
+    line-height: 1.1;
+}
+.landing-page-content p{    
+    font-size: 24px;
+    font-weight: 400;
+}
+.landing-page-content button{    
+    padding: 20px;
+    font-size: 18px;    
+    font-weight: 700;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    background-color: #ff9b08;  
+    color: #fff;
+    border: 2px solid #ff9b08;
+}
+.landing-page-content button:hover{    
+    background-color: #FFA623;  
 }

@@ -6,7 +6,9 @@ function Navbar(){
         <header>
             <div className="header-content">
                 <div className="logo">
-                    <a href="/">LOGO</a>
+                    <a href="/">
+                        <img alt="about-travel" src="img/20240110_153416_0000.png"/>
+                    </a>
                 </div>
                 <nav>
                     <ul className="navigation-menu">
